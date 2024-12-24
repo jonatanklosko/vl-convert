@@ -20,3 +20,5 @@ jobs:
           . "$HOME/.cargo/env"
           cd vl-convert-rs
           cargo run --example conversion_sequence
+          cargo run --example conversion_sequence2
+          cargo run --example conversion_sequence3
